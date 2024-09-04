@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, #141414, #000000);
+}
+
+h1 {
+    color: #eee;
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h2 {
+    color: #ffa301;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+p {
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background: transparent;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-family: Cambo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header nav a {
+    margin-left: 16px;
+    color: #eee;
+    text-decoration: none;
+    font-size: 22px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #7a7a7c;
+}
+
+section .container{
+    display: flex;
+    max-width: 1234px;
+    width: 100%;
+    margin: 0 auto;
+    background: radial-gradient(circle, rgb(7, 0, 12), #08010d);
+    border: 2px solid #e00d1f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section{
+    padding: 16px 0;
+}
+
+form input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: #7a7a7c;
+    opacity: 1;
+    font-family: Cambo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.barra {
+    background-color: #2b2b2b;
+    height: 40px;
+    border-radius: 6.666em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}
+
+.barra:hover {
+    background-color: #eee;
+}
+
+.pesquisar {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    background: transparent
+}
+
+.pesquisar nav li {
+    margin-left: 2lvh;
+    display: inline;
+}
+
+.pesquisar nav a {
+    color: #7a7a7c;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: color 0.3s;
+}
+
+.pesquisar nav a:hover {
+    color: #eee;
+}
+
+section {
+    padding: 32px 0;
+}
+
+section h2{
+    color: #e00d1f;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+section p{
+    margin-top: 8px;
+}
+
+.store-about{
+    margin-right: 32px;
+}
+
+.brand-list img{
+    height: 60px;
+    margin-right: 8px;
+}
+
+.brand-list li{
+    display: inline;
+}

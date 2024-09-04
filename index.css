@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(circle, #141414, #000000);
+}
+
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    background: transparent;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-family: Cambo,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color: #eee;
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h2{
+    color: #ffa301;
+    font-family: 'Press Start 2P';
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.contact-container h2{
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.contact-container h3{
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+p, h3, form button{
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+header nav a{
+    margin-left: 16px;
+    color: #eee;
+    text-decoration: none;
+    font-size: 22px;
+    transition: color 0.3s;
+}
+
+header nav a:hover{
+    color: #7a7a7c;
+}
+
+form input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+input::placeholder{
+    color: #7a7a7c;
+    opacity: 1;
+    font-family: Cambo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.barra {
+    background-color: #2b2b2b;
+    height: 40px;
+    border-radius: 6.666em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}
+
+.barra:hover {
+    background-color: #eee;
+}
+
+.pesquisar {
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    background: transparent
+}
+
+.pesquisar nav li {
+    margin-left: 2lvh;
+    display: inline;
+}
+
+.pesquisar nav a {
+    color: #7a7a7c;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: color 0.3s;
+}
+
+.pesquisar nav a:hover {
+    color: #eee;
+}
+
+.container header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.desconto {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background: radial-gradient(circle, #190c25, #a200e4);
+    border: 2px solid #ffa301;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 32px 0;
+}
+
+section h2 {
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-top: 8px;
+}
+
+.store-front{
+    margin-right: 32px;
+}
+
+#contact{
+    background: #202020;
+}
+
+#contact h2{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.contact-methods form input, form textarea, .contact-methods form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background: #2b2b2b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+}
+
+.contact-methods form input:hover{
+    background: #353535;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+form textarea:hover{
+    background: #353535;
+}
+
+form textarea:focus{
+    outline: 2px solid #000000;
+}
+
+form button {
+    color: #fff; 
+    border: none; 
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+form button:hover {
+    background-color: #353535; 
+    transform: scale(1.05); 
+}
+
+.footer{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    color: #eee;
+    padding: 16px 0;
+}

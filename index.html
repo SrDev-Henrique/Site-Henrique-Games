@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Games</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container"> <!--todo:Cabeçalho-->
+        <header>
+            <h1>Henrique Games</h1>
+            <nav>
+                <a href="sobre.html">Sobre a loja</a>
+                <a href="#contact">Contato</a>
+            </nav>
+        </header>
+    </div>
+
+    <div class="pesquisar"> <!--todo:Barra de pesquisa-->
+        <div class="barra">
+            <form action="/search" method="GET">
+                <input type="search" name="query" placeholder="Pesquisar loja">
+            </form>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Descobrir</a></li>
+                <li><a href="index.html">Navegar</a></li>
+                <li><a href="index.html">Novidades</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section> <!--todo:Desconto da Black Friday-->
+        <div class="desconto">
+            <img class="store-front" src="./Imagens/Index.jpg" alt="Loja" width="720">
+            <div>
+                <h2>Descontos da Black Friday</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit libero, dolore totam, quo dolorum illum vel, est voluptate deleniti cupiditate asperiores nostrum quis. Voluptate praesentium molestiae enim deserunt ab.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, iure at, nemo explicabo similique adipisci delectus iste ipsam sequi nostrum hic? At culpa itaque repellat ex? Quod quidem possimus voluptatibus.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact"> <!--todo:Contato-->
+        <div class="contact-container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div class="talk">
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu email" required>
+                        <input type="tel" placeholder="Seu telefone (opcional)">
+                        <textarea placeholder="Sua mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="follow">
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga a gente no instagram">
+                                <img src="./Imagens/instagram.png" alt="Insta">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga a gente no facebook">
+                                <img src="./Imagens/facebook.png" alt="Face">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso canal no youtube">
+                                <img src="./Imagens/youtube.png" alt="Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="come">
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua JavaScript n° 333, Vila HTML - Visual Studio - CS 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>
+                &copy; Henrique Games - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
