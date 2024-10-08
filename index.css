@@ -209,6 +209,7 @@ section p {
 }
 
 form textarea {
+    color: #eee;
     resize: none;
     height: 180px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -236,6 +237,11 @@ form button {
 form button:hover {
     background-color: #353535; 
     transform: scale(1.05); 
+}
+
+.come img{
+    height: 260px;
+    margin-top: 20px;
 }
 
 .footer{
